@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Inscrição</h1>
+        <h1>Curso de Cozinheiro</h1>
+        <form id="enrollment-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="birth-year">Ano de Nascimento</label>
+        <input type="number" id="birth-year" name="birth-year" required>
+        <button type="button" onclick="checkEligibility()">Verificar</button>
+    </form>
+    <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
